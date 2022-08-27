@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.all_e_paper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true">
+    </supports-screens>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.All_epaper">
+        <activity android:name=".Development2"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8391096929304342~4111696638" />
+        <activity
+            android:name=".Developer_contact"
+            android:parentActivityName=".Choise_Language_Paper" />
+        <activity android:name=".Contact_us" />
+        <activity android:name=".N0_internet" />
+        <activity android:name=".All_Magazine" />
+        <activity android:name=".Amar_Ujala" />
+        <activity android:name=".Hindustan" />
+        <activity android:name=".Dainik_Bhaskar" />
+        <activity android:name=".Dainik_Jagran" />
+        <activity
+            android:name=".The_Economic_Times"
+            android:parentActivityName=".All_English_News" />
+        <activity
+            android:name=".Hindustan_Times"
+            android:parentActivityName=".All_English_News" />
+        <activity
+            android:name=".The_Times_Of_india"
+            android:parentActivityName=".All_English_News" />
+        <activity
+            android:name=".The_Hindu"
+            android:parentActivityName=".All_English_News" />
+        <activity
+            android:name=".The_Indian_Express"
+            android:parentActivityName=".All_English_News" />
+        <activity
+            android:name=".The_Tribune"
+            android:parentActivityName=".All_English_News" />
+        <activity android:name=".All_Marathi_News" />
+        <activity
+            android:name=".All_Hindi_News"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".All_English_News"
+            android:parentActivityName=".Choise_Language_Paper" />
+        <activity
+            android:name=".Choise_Language_Paper"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".Times_of_India"
+            android:parentActivityName=".All_English_News" />
+        <activity android:name=".Bombay_samachar" />
+        <activity android:name=".Nav_Gujaratsamay" />
+        <activity
+            android:name=".ABP_Asmita"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Zee_24_kalak"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".News_Gujarati"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Cricket"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Aajkaal"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Sanj_Samachar"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Sandesh"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Gujarat_Samachar"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Divya_bhaskar"
+            android:parentActivityName=".Menu_list" />
+        <activity
+            android:name=".Menu_list"
+            android:parentActivityName=".Choise_Language_Paper" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

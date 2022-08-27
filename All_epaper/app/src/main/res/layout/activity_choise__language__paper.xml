@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_gravity="center"
+    android:id="@+id/drawer"
+    tools:openDrawer="start"
+    android:background="@drawable/bg2"
+    tools:context=".Choise_Language_Paper">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            app:title="Menu"
+            app:subtitleTextColor="@color/black"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            app:titleTextColor="@color/black"
+            app:collapseIcon="@color/white"
+            android:pointerIcon="wait"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:elevation="4dp"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="73dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/select" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:hint="Select News Language"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <GridView
+            android:id="@+id/gvmain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/adView"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" />
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8391096929304342/6787166718" />
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        android:background="@android:color/black"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:itemBackground="@android:color/transparent"
+        android:id="@+id/nv">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

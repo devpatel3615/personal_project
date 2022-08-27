@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#E6E6E6"
+    tools:context=".Cricket">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right" />
+
+    <!--    Live-->
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="235dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="28dp"
+            app:srcCompat="@drawable/loginbutton_shape" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="121dp"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/cancel_" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/imageView7"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignTop="@+id/imageView4"
+            android:layout_alignEnd="@+id/imageView4"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="11dp"
+            android:foregroundGravity="center"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/live_1" />
+
+        <Button
+            android:id="@+id/live"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignBottom="@+id/imageView4"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/loginbutton_shape"
+            android:hint="Click Hear All Live News"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FF9800"
+            android:textSize="10sp"
+            android:textStyle="normal">
+
+        </Button>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="72dp"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="Cricket News"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="31dp"
+            android:text="Today All news" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="161dp"
+            android:layout_height="24dp"
+            android:layout_alignStart="@+id/imageView7"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="32dp"
+            android:shadowColor="#FFFFFF"
+            android:text="Live"
+            android:textAlignment="center"
+            android:textColor="#FF0101" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

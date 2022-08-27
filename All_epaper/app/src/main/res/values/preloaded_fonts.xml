@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre</item>
+        <item>@font/acme</item>
+        <item>@font/aladin</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/allerta</item>
+        <item>@font/amarante</item>
+        <item>@font/amethysta</item>
+        <item>@font/averia_gruesa_libre</item>
+        <item>@font/bitter</item>
+    </array>
+</resources>

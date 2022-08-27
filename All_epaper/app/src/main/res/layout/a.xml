@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical"
+    tools:context=".Hindustan"
+    android:padding="1dp">
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="165dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/developer12345" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="94dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:srcCompat="@drawable/profile"-->
+<!--        tools:layout_editor_absoluteY="119dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:fontFamily="@font/alegreya_sc"-->
+<!--        android:text="Dev Patel"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="30sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView2" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView14"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:text="( Thank you for supporting me )"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.496"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView4" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/gmail"-->
+<!--        android:layout_width="35dp"-->
+<!--        android:layout_height="23dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginEnd="116dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView14"-->
+<!--        app:srcCompat="@drawable/email" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/telegram"-->
+<!--        android:layout_width="35dp"-->
+<!--        android:layout_height="23dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/gmail"-->
+<!--        app:layout_constraintHorizontal_bias="0.464"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView14"-->
+<!--        app:srcCompat="@drawable/telegram" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView11"-->
+<!--        android:layout_width="365dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:layout_marginTop="80dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView14"-->
+<!--        app:srcCompat="@drawable/cancel_1" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView15"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="Thank You"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView16"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView11"-->
+<!--        app:layout_constraintHorizontal_bias="0.055"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView11"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView11"-->
+<!--        app:layout_constraintVertical_bias="0.666" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView16"-->
+<!--        android:layout_width="336dp"-->
+<!--        android:layout_height="51dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="Thank you for downloading my apps. I'd love to hear your thoughts and suggestions."-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView11"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView11"-->
+<!--        app:layout_constraintHorizontal_bias="0.482"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView11" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView13"-->
+<!--        android:layout_width="362dp"-->
+<!--        android:layout_height="95dp"-->
+
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.489"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView11"-->
+<!--        app:srcCompat="@drawable/cancel_1" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView18"-->
+<!--        android:layout_width="341dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:text="Thank you for downloading my apps. I hope you enjoy and find something useful from it. If you do then please support my development."-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/imageView13"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/imageView13"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/imageView13"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/imageView13" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
